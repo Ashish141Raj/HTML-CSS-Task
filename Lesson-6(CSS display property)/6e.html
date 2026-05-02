@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber request-a-ride form</title>
+    <style>
+        p{
+        font-family: Arial;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 25px;
+        }
+        input{
+            background-color: rgb(240,240,240);
+            color: rgb(200, 200, 200);
+            font-weight: bold;
+            font-size: 16pxpx;
+            width: 400px;
+            border: none;
+            margin-bottom: 10px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: block;
+        }
+        .request-btn{
+            background-color: black;
+            color: white;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 25px;
+            padding-right: 25px;
+            font-size: 16px;
+            margin-right: 20px;
+            transition: background-color 1s;
+        }
+        .request-btn:hover{
+            background-color: rgb(62, 61, 61);
+        }
+        .request-btn:active{
+            opacity: 0.7;
+        }
+        .Schedule-btn{
+            background-color: rgb(240,240,240);
+            color: black;
+            border: none;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 25px;
+            padding-right: 25px;
+            font-size: 16px;
+            transition: background-color 1s;
+
+        }
+        .Schedule-btn:hover{
+            background-color: rgb(209, 209, 209);
+        }
+        .Schedule-btn:active{
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <p>Request a ride now</p>
+    <input type="text" placeholder="Enter pickup location">
+    <input type="text" placeholder="Enter destination">
+    <button class="request-btn">Request now</button>
+    <button class="Schedule-btn">Schedule for later</button>
+</body>
+</html>
