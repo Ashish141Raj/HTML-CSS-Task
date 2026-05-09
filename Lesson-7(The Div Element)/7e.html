@@ -1,0 +1,53 @@
+<!-- Take the design created in exercise 5g.Wrap it in a <div> and give it a shadow -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The div Element</title>
+    <style>
+        .div1{
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            width: 500px;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            object-fit: cover;
+            vertical-align: middle;
+            margin-left: 30px;
+        }
+        input{
+            font-size: 18px;
+            border: none;
+            color: rgb(100, 100, 100);
+            width: 300px;
+            vertical-align: middle;
+            margin-left: 15px;
+        }
+        button{
+            background-color: rgb(29, 155, 240);
+            color: white;
+            border: none;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            vertical-align: middle; 
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <img src="image.png" alt="billi">
+        <input type="text" placeholder="What's happening?">
+        <button>Tweet</button>
+    </div>
+</body>
+</html>
